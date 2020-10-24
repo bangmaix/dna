@@ -1,0 +1,26 @@
+{
+    "name": "bangmaix/dna",
+    "description": "DNA - Do No AcTion",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RAHMAD SYAH MULYA, S.Kom., M.M.",
+            "email": "bangmaix@gmail.com"
+        }
+    ],
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Bangmaix\\DNA\\Providers\\DNAServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Bangmaix\\DNA\\": "src"
+		}
+	},
+    "minimum-stability": "stable",
+    "require": {}
+}
